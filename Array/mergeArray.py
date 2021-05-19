@@ -1,4 +1,6 @@
-def nextGap(self,gap):
+class Solution:
+    #Function to find next gap.
+    def nextGap(self,gap):
         
         #It returns the ceil value of gap/2 or 0 if gap is 1.
         if(gap<=1):
@@ -50,3 +52,19 @@ def nextGap(self,gap):
                     
             #Updating the value of gap.        
             gap = self.nextGap(gap)
+
+
+#{ 
+#  Driver Code Starts
+#Initial template for Python
+
+if __name__ == '__main__':
+    t = int(input())
+    for tt in range(t):
+        n,m = map(int, input().strip().split())
+        arr1 = list(map(int, input().strip().split()))
+        arr2 = list(map(int, input().strip().split()))
+        ob=Solution()
+        ob.merge(arr1, arr2, n, m)
+        print(*arr1,end=" ")
+        print(*arr2)
