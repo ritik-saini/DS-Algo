@@ -7,7 +7,7 @@ upper = int(input('Enter upper bound : '))
 x = random.randint(lower, upper)
 print("\nyou've only", round(math.log(upper-lower+1, 2)),"chances to get the integer.")
 count = 0
-while (count<math.log(upper-lower+1, 2)):
+while (count<math.log(upper-lower+1, 2)): #chances to guess the number
     count+=1
     guess = int(input('\tGuess the number : '))
     if x == guess:
