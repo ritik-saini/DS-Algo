@@ -1,5 +1,4 @@
 #All the basic operation on array with Python
-
 import array as arr
 a=arr.array('d', [1.2,3.4,4.5,5.6])
 print(len(a))
