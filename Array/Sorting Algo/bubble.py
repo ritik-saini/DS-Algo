@@ -1,4 +1,5 @@
 # Bubble sort algorithm to sort the array
+# time complexity O(n^2)
 arr= [4, 3, 7, 1, 5]
 n= len(arr)
 for i in range(0, n-1):
