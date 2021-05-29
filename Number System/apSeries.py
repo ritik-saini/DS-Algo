@@ -4,6 +4,5 @@ def arthimetic(arr, n, d):
     # ans = arr[0]+(n-1)*d
     ans = (n / 2) * (2 * arr + (n - 1) * d)
     return ans
-
 arr = 6
 print(arthimetic(arr, 4, 3))
