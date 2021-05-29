@@ -1,4 +1,5 @@
-# Insertion sort algorithm to sort the array
+# Insertion sort algorithm to sort the array 
+# time complexity O(n^2)
 arr= [8,4,1,5,9,2]
 n = len(arr)
 for i in range(1, n):
