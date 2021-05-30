@@ -1,3 +1,4 @@
+# Fractional knapsack : In these knapsack we can divide the items
 class ItemValue:
  
     def __init__(self, wt, val, ind):
