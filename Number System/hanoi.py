@@ -1,5 +1,4 @@
 #Tower of Hanoi problem in Python
-
 def TOH(n, beg, aux, dest):
     if n > 0:
         TOH(n-1, beg, dest, aux)
