@@ -1,4 +1,4 @@
-#Game of guessing numbers between two ranges
+#Game of guessing numbers between two ranges with limited chances
 import random
 import math
 
