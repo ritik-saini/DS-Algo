@@ -1,3 +1,4 @@
+#program to convert binary number to gray number
 def binary_to_gray(n):
     n = int(n, 2)
     n ^= (n >> 1)
